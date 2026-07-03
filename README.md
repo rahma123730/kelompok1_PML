@@ -240,7 +240,7 @@ Dokumentasi lengkap ditempatkan pada folder `docs/`.
 - [x] Model Random Forest tersedia dalam format `.pkl`.
 - [x] Kode sumber dan file inti tersedia di GitHub.
 - [x] Dokumentasi README tersedia.
-- [x] SOP PDF diunggah ke folder `docs/`.
+- [x] SOP diunggah ke folder `docs/`.
 - [x] Aplikasi dideploy ke Streamlit Community Cloud.
 
 ---
