@@ -210,8 +210,6 @@ Dokumentasi lengkap ditempatkan pada folder `docs/`.
 | Dokumen | Keterangan |
 |---|---|
 | `SOP_onTrack_EAS_kelompok1_PML.md` | SOP penggunaan, pengujian, dan deployment |
-| `SOP_onTrack_EAS_kelompok1_PML.pdf` | Versi PDF SOP untuk lampiran/pengumpulan EAS |
-| `test_cases.md` | Skenario pengujian fitur aplikasi |
 | `screenshots/` | Screenshot aplikasi, repository, dan deployment |
 
 ---
