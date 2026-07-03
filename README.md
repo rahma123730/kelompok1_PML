@@ -232,7 +232,7 @@ Dokumentasi lengkap ditempatkan pada folder `docs/`.
 ## 12. Link Proyek
 
 - **GitHub Repository:** https://github.com/rahma123730/kelompok1_PML
-- **Streamlit Deployment:** Tambahkan tautan deployment setelah aplikasi dipublikasikan melalui Streamlit Community Cloud.
+- **Streamlit Deployment:** (https://ontrack.streamlit.app/)
 
 ---
 
@@ -242,8 +242,8 @@ Dokumentasi lengkap ditempatkan pada folder `docs/`.
 - [x] Model Random Forest tersedia dalam format `.pkl`.
 - [x] Kode sumber dan file inti tersedia di GitHub.
 - [x] Dokumentasi README tersedia.
-- [ ] SOP PDF diunggah ke folder `docs/`.
-- [ ] Aplikasi dideploy ke Streamlit Community Cloud.
+- [x] SOP PDF diunggah ke folder `docs/`.
+- [x] Aplikasi dideploy ke Streamlit Community Cloud.
 
 ---
 
