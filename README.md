@@ -73,8 +73,6 @@ kelompok1_PML/
 │
 ├── docs/
 │   ├── SOP_onTrack_EAS_kelompok1_PML.md
-│   ├── SOP_onTrack_EAS_kelompok1_PML.pdf
-│   ├── test_cases.md
 │   └── screenshots/
 │
 ├── Analisis/                      # File analisis kelompok
