@@ -397,7 +397,6 @@
         font-size: 13px;
     }
 
-    /* Komponen interaktif untuk hasil prediksi. */
     .gauge-card,
     .profile-summary-card {
         height: 100%;
@@ -539,8 +538,7 @@
         font-size: 12px;
     }
 
-    /* Tata letak hasil prediksi: menggunakan container query agar responsif terhadap
-       lebar kolom hasil, bukan hanya ukuran layar perangkat. */
+    /* Responsif code */
     .result-overview-wrapper,
     .insight-wrapper,
     .simulation-comparison-wrapper {
@@ -615,7 +613,7 @@
         color: #c2410c !important;
     }
 
-    /* Ketika kolom hasil cukup lebar, kartu memanfaatkan area horizontal. */
+    /* whitespace */
     @container (min-width: 560px) {
         .result-overview-grid {
             grid-template-columns: minmax(190px, 0.72fr) minmax(0, 1.28fr);
@@ -661,7 +659,7 @@
         }
     }
     
-    /* Micro-interactions: memberi respons visual saat pengguna mengeklik atau menelusuri aplikasi. */
+    /* animasi pas di klik */
     @keyframes soft-rise {
         from {
             opacity: 0;
@@ -911,11 +909,6 @@
     }
 
 
-/* --------------------------------------------------------------------------
-   Modern sidebar navigation: icon chips are CSS-based so no extra library,
-   images, or network request is required. The menu remains readable on light
-   and dark app modes because the sidebar has its own accessible contrast.
-   -------------------------------------------------------------------------- */
 section[data-testid="stSidebar"] .sidebar-title {
     display: flex !important;
     align-items: center !important;
@@ -977,7 +970,7 @@ section[data-testid="stSidebar"] div[role="radiogroup"] label > div:last-child p
     letter-spacing: 0.005em !important;
 }
 
-/* Icon chip shared style. */
+/* icon */
 section[data-testid="stSidebar"] div[role="radiogroup"] label > div:last-child::before {
     display: inline-flex !important;
     align-items: center !important;
@@ -996,7 +989,7 @@ section[data-testid="stSidebar"] div[role="radiogroup"] label > div:last-child::
     transition: transform 180ms cubic-bezier(.2,.8,.2,1), background 180ms ease, color 180ms ease, box-shadow 180ms ease !important;
 }
 
-/* Correlated icons: home, form/pencil, upload, dashboard grid, info. */
+/* icon menu utama */
 section[data-testid="stSidebar"] div[role="radiogroup"] label:nth-of-type(1) > div:last-child::before { content: "⌂"; }
 section[data-testid="stSidebar"] div[role="radiogroup"] label:nth-of-type(2) > div:last-child::before { content: "✎"; }
 section[data-testid="stSidebar"] div[role="radiogroup"] label:nth-of-type(3) > div:last-child::before { content: "⇧"; }
